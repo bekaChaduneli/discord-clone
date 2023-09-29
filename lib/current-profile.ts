@@ -11,6 +11,6 @@ export const currentProfile = async () => {
         where: {
             userId
         }
-    })
+    });
     return profile
 }
